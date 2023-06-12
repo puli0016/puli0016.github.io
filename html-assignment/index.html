@@ -5,21 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Assignment</title>
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
     
     <header>
-        <h1>Fallon Silvana Pulido</h1>
+        <h1 class="site-title">Fallon Silvana Pulido</h1>
     
 
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="notes.html">Notes</a></li>
-            </ul>
+        <nav class="style-nav">
+            
+            <p><a href="index.html">Home</a></p>
+            <p><a href="notes.html" rel="external">Notes</a></p>
+        
         </nav>
 
-        <ul><li><a href="#Hobbies">Go to Hobbies</a></li></ul>
+        <p><a href="#Hobbies">Go to Hobbies</a></p>
 
     </header>
 
@@ -31,8 +32,9 @@
         <section>
 
             <h2>Images</h2>
-      
-            <img src="images/fallon2.PNG" alt="fallon pulido">
+            <div id="box-shadow">    
+                <img src="images/fallon2.PNG" alt="fallon pulido" width="400">
+            </div> 
 
         </section>
 
@@ -56,7 +58,7 @@
 
         <p>Among my hobbies are the following:</p>
 
-        <ul>
+        <ul class="hobbies">
             <li>Watch series</li>
             <li>Listen to music</li>
             <li>Watch tennis games</li>
