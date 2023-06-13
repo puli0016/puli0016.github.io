@@ -36,9 +36,11 @@ a {
     text-decoration: none;
     background-color: rgb(12, 136, 143);
     border: 1px solid black;
-    padding: 3px;
 }
 
+nav>ul {
+    list-style-type: none;
+}
 a:hover, a:active {
     background-color: rgb(228, 233, 235);
     color: rgb(44, 22, 206);
