@@ -1,0 +1,89 @@
+
+body {
+    background-color: #b7ebe5;
+    line-height: 1.4;
+}
+
+main {
+    padding: 0.5em;
+}
+
+p {
+    font-size: 13px;
+}
+
+li {
+    font-size: 13px;
+}
+
+.wrapper {
+    background-color: #cefdf7;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+section {
+    box-shadow: 0 0 2px black;
+}
+
+
+.display ul {
+    padding-left: 0;
+    text-align: center;
+}
+
+.display li {
+    display: inline-block;
+    width: 32%;
+}
+
+.display li a { 
+    padding: 20px;
+    text-decoration: none;
+}
+
+label {
+    font-size: 13px;
+}
+
+#yourname {
+    width: 650px;
+    height: 20px;
+}
+
+#youremail {
+    width: 650px;
+    height: 20px;
+}
+
+#yourmessage {
+    width: 650px;
+    height: 100px;
+}
+
+#starfish {
+    width: 200px;
+    float: left;
+}
+
+form {
+    padding: 1em;
+}
+
+.container {
+    position: relative;
+}
+
+h1 {
+    color: white;
+    font-size: 40px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position:absolute;
+    width: 100%;
+    top: 45%;
+    text-align:center;
+}
+
+footer {
+    text-align: right;
+}
