@@ -40,16 +40,18 @@
 
         <img src="images/about-us.jpg" alt="">
         <article>
-            <h2>About us</h2>
+            <div class="wrapper">
+                <h2>About us</h2>
 
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit maiores officiis qui maxime id vitae reiciendis facilis voluptatibus quia, minima doloremque sapiente beatae odit assumenda rem praesentium ipsam et possimus.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit maiores officiis qui maxime id vitae reiciendis facilis voluptatibus quia, minima doloremque sapiente beatae odit assumenda rem praesentium ipsam et possimus.</p>
+            </div>
         
         </article>
      
         <section>
             <div>
                 <h2>Ours Services</h2>
-                <div>
+                <div class="wrapper">
                     <article>
                         <img src="images/digital.jpg" alt="">
                         <h3>Digital Transformation</h3>
@@ -89,14 +91,18 @@
         </section>
         
         <article>
-            <h2>Our Vision</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ea sequi, dolores corporis sint possimus libero temporibus, illum officia voluptas molestias iste. Provident, blanditiis corporis magnam recusandae dolores impedit placeat?</p>
-            <a class="btn" href="#">Learn More</a>
+            <div class="wrapper">
+                <h2>Our Vision</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ea sequi, dolores corporis sint possimus libero temporibus, illum officia voluptas molestias iste. Provident, blanditiis corporis magnam recusandae dolores impedit placeat?</p>
+                <a class="btn" href="#">Learn More</a>
+            </div>
         </article>
 
         <article>
-            <h2>Our Team</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi iusto provident ea, incidunt maiores dolore facilis ab reprehenderit iste nam illum esse consequuntur quasi id, eaque eveniet at error aliquam!</p>
+            <div class="wrapper">
+                <h2>Our Team</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi iusto provident ea, incidunt maiores dolore facilis ab reprehenderit iste nam illum esse consequuntur quasi id, eaque eveniet at error aliquam!</p>
+            </div>
 
             <section>
                 <img src="images/john.jpg" alt="">
@@ -114,7 +120,6 @@
         <section>
 
             <h2>Contact Us</h2>
-
                 <form action="index.html" method="get">
 
                     <div>
@@ -138,25 +143,22 @@
         
 
             <!--   Two column layout for hours of operation -->
-            <section id="hours-of-operation">
-                <div class="wrapper">
-                    <h2>Hours of operation</h2>
-
-                    <div class="services-grid">
-                        <article>
-                        <h3>Days</h3>
-                        <p>Monday - Friday</p>
-                        <p>Saturday - Sunday</p>
-                        </article>
-                        
-                        <article>
-                            <h3>Hours</h3>
-                            <p>9 AM - 6 PM</p>
-                            <p>Closed</p>
-                        </article>
-                    </div>
-                    
-                </div>
+            <section> 
+                <h2>Hours of operation</h2>
+                 <table>
+                     <tr>
+                       <th>Days</th>
+                        <th>Hours</th>
+                     </tr>
+                     <tr>
+                        <td>Monday-Friday</td>
+                        <td>9 AM-6 PM</td>
+                     </tr>
+                     <tr>
+                       <td>Saturday-Sunday</td>
+                       <td>Closed</td>
+                     </tr>
+                  </table>
             </section>
 
             <section>
