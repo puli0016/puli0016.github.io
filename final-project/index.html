@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Final-Project</title>
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/main.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
@@ -11,28 +12,26 @@
 <body>
     
     <header>
-
-        <div>
-            <nav>
-                <img src="images/logo.png" alt="">
-                <ul>
-                    <li><a href="#Home">Home</a></li>
-                    <li><a href="#Aboutus">About Us</a></li>
-                    <li><a href="#Services">Services</a></li>
-                    <li><a href="#Team">Team</a></li>
-                    <li><a href="#Contact">Contact</a></li>
-                    <li><input type="text" placeholder="search"> <button><span class="material-icons">search
-                    </span></button></li>
-                </ul>
-            </nav>
+        <div class="wrapper">
+            <div>
+                <nav>
+                    <img src="images/logo.png" alt="">
+                    <ul>
+                        <li><a href="#Home">Home</a></li>
+                        <li><a href="#Aboutus">About Us</a></li>
+                        <li><a href="#Services">Services</a></li>
+                        <li><a href="#Team">Team</a></li>
+                        <li><a href="#Contact">Contact</a></li>
+                        <li><input type="text" placeholder="search"> <button><span class="material-icons">search
+                        </span></button></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
-      
     </header>
 
      <!-- The content for this page - includes about us, services, vision, team and contact  -->
     <main>
-
-        <img src="images/main-banner.jpg" alt="">
         <section>
             <h1>Welcome to Three Star Media </h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, magni! Dignissimos dolorem voluptatibus, magnam sed corrupti, asperiores placeat optio quae voluptatem, nesciunt sint ullam! Quaerat enim aliquam totam. Veniam, dolorem?</p>
@@ -90,7 +89,6 @@
         </section>
         
         <article>
-            <img src="images/vision.jpg" alt="">
             <h2>Our Vision</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ea sequi, dolores corporis sint possimus libero temporibus, illum officia voluptas molestias iste. Provident, blanditiis corporis magnam recusandae dolores impedit placeat?</p>
             <a class="btn" href="#">Learn More</a>
@@ -137,33 +135,34 @@
 
             <button type="submit">Send</button>        
         
-        </section>
+        
 
-        <!--   Two column layout for hours of operation -->
-        <section id="hours-of-operation">
-            <div class="wrapper">
-                <h2>Hours of operation</h2>
+            <!--   Two column layout for hours of operation -->
+            <section id="hours-of-operation">
+                <div class="wrapper">
+                    <h2>Hours of operation</h2>
 
-                <div class="services-grid">
-                    <article>
-                      <h3>Days</h3>
-                      <p>Monday - Friday</p>
-                      <p>Saturday - Sunday</p>
-                    </article>
+                    <div class="services-grid">
+                        <article>
+                        <h3>Days</h3>
+                        <p>Monday - Friday</p>
+                        <p>Saturday - Sunday</p>
+                        </article>
+                        
+                        <article>
+                            <h3>Hours</h3>
+                            <p>9 AM - 6 PM</p>
+                            <p>Closed</p>
+                        </article>
+                    </div>
                     
-                    <article>
-                        <h3>Hours</h3>
-                        <p>9 AM - 6 PM</p>
-                        <p>Closed</p>
-                      </article>
                 </div>
-                
-            </div>
-        </section>
+            </section>
 
-        <section>
-            <h2>Location</h2>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11216.090196958408!2d-75.75196977391366!3d45.348357078954564!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1690950168913!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <section>
+                <h2>Location</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11216.090196958408!2d-75.75196977391366!3d45.348357078954564!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1690950168913!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </section>
         </section>
 
     </main>
