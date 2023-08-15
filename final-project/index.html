@@ -10,13 +10,17 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
 </head>
 
 <body>
     
     <header>
-        <div class="wrapper">
-            <img src="images/logo.png" alt="">
+        <div class="wrapper-logo">
+            <div class="logo-bg">
+                <img class="logo" src="images/logo.png" alt="">
+            </div>
             
             <nav>
                 <ul>
@@ -30,7 +34,7 @@
 
             <form>
                 <input type="search" class="search-input" name="search" placeholder="search">
-                <button><span class="material-icons">search</span></button>
+                <button class="search-button"><span class="material-icons">search</span></button>
             </form>
         </div>
     </header>
@@ -38,19 +42,19 @@
      <!-- The content for this page - includes about us, services, vision, team and contact  -->
     <main>
         <section id="hero-banner">
-            <div class="wrapper">
+            <div class="wrapper-welcome">
                 <!-- <img id="main-banner-big" src="images/main-banner.jpg" alt="main-banner-big"> *** Should be bg img in css-->
                 <h1>Welcome to Three Star Media </h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, magni! Dignissimos dolorem voluptatibus, magnam sed corrupti, asperiores placeat optio quae voluptatem, nesciunt sint ullam! Quaerat enim aliquam totam. Veniam, dolorem?</p>
-                <a class="btn" href="#">Contact with us</a>
+                <a class="btn" href="#">Contact with us<span class="material-icons">play_arrow</span></a>
             </div>
         </section>
 
         <section>
-            <div class="wrapper about-grid">
+            <div class="wrapper-about-grid">
                 <img src="images/about-us.jpg" alt="">
         
-                <div>
+                <div class="about-us">
                     <h2>About us</h2>
 
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit maiores officiis qui maxime id vitae reiciendis facilis voluptatibus quia, minima doloremque sapiente beatae odit assumenda rem praesentium ipsam et possimus.</p>
@@ -60,73 +64,85 @@
      
         <section>
             <div class="wrapper">
-                <h2>Our Services</h2>
+                <h2 id="os">Our Services</h2>
                 <div class="services-grid">
-                    <article>
+                    <article class="dt">
                         <img src="images/digital.jpg" alt="">
-                        <h3>Digital Transformation</h3>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos quam maiores minus consequatur enim ea nisi reiciendis, excepturi debitis ex perspiciatis consectetur officiis aut at, nam facilis laborum molestias expedita.</p>
-                        <a class="btn" href="#">Digital Plans</a>
+                        <div class="content2">
+                            <h3>Digital Transformation</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos quam maiores minus consequatur enim ea nisi reiciendis, excepturi debitis ex perspiciatis consectetur officiis aut at, nam facilis laborum molestias expedita.</p>
+                            <a class="btn" href="#">Digital Plans<span class="material-icons">play_arrow</span></a>
+                        </div>
                     </article>
 
-                    <article>
+                    <article class="m">
                         <img src="images/marketing.jpg" alt="">
-                        <h3>Marketing</h3>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos quam maiores minus consequatur enim ea nisi reiciendis, excepturi debitis ex perspiciatis consectetur officiis aut at, nam facilis laborum molestias expedita.</p>
-                        <a class="btn" href="#">Marketing Plans</a>
+                        <div class="content2">
+                            <h3>Marketing</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos quam maiores minus consequatur enim ea nisi reiciendis, excepturi debitis ex perspiciatis consectetur officiis aut at, nam facilis laborum molestias expedita.</p>
+                            <a class="btn" href="#">Marketing Plans<span class="material-icons">play_arrow</span></a>
+                        </div>    
                     </article>
 
-                    <article>
+                    <article class="vp">
                         <img src="images/video.jpg" alt="">
-                        <h3>Video Production</h3>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos quam maiores minus consequatur enim ea nisi reiciendis, excepturi debitis ex perspiciatis consectetur officiis aut at, nam facilis laborum molestias expedita.</p>
-                        <a class="btn" href="#">Video Plans</a>
+                        <div class="content2">
+                            <h3>Video Production</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos quam maiores minus consequatur enim ea nisi reiciendis, excepturi debitis ex perspiciatis consectetur officiis aut at, nam facilis laborum molestias expedita.</p>
+                            <a class="btn" href="#">Video Plans<span class="material-icons">play_arrow</span></a>
+                        </div>
                     </article>
 
-                    <article>
+                    <article class="wd">
                         <img src="images/web.jpg" alt="">
-                        <h3>Web Development</h3>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos quam maiores minus consequatur enim ea nisi reiciendis, excepturi debitis ex perspiciatis consectetur officiis aut at, nam facilis laborum molestias expedita.</p>
-                        <a class="btn" href="#">Web Plans</a>
+                        <div class="content2">
+                            <h3>Web Development</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos quam maiores minus consequatur enim ea nisi reiciendis, excepturi debitis ex perspiciatis consectetur officiis aut at, nam facilis laborum molestias expedita.</p>
+                            <a class="btn" href="#">Web Plans<span class="material-icons">play_arrow</span></a>
+                        </div>
                     </article>
 
-                    <article>
+                    <article class="p">
                         <img src="images/print.jpg" alt="">
-                        <h3>Print</h3>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos quam maiores minus consequatur enim ea nisi reiciendis, excepturi debitis ex perspiciatis consectetur officiis aut at, nam facilis laborum molestias expedita.</p>
-                        <a class="btn" href="#">Print Plans</a>
+                        <div class="content2">
+                            <h3>Print</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos quam maiores minus consequatur enim ea nisi reiciendis, excepturi debitis ex perspiciatis consectetur officiis aut at, nam facilis laborum molestias expedita.</p>
+                            <a class="btn" href="#">Print Plans<span class="material-icons">play_arrow</span></a>
+                        </div>
                     </article>
                 </div>
             </div>
         </section>
         
         <section id="vision">
-            <div class="wrapper">
+            <div class="wrapper-vision">
                 <!-- <img src="images/vision.jpg" alt=""> BG img in css on #vision-->
                 <h2>Our Vision</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ea sequi, dolores corporis sint possimus libero temporibus, illum officia voluptas molestias iste. Provident, blanditiis corporis magnam recusandae dolores impedit placeat?</p>
-                <a class="btn" href="#">Learn More</a>
+                <a class="btn" href="#">Learn More<span class="material-icons">play_arrow</span></a>
             </div>
         </section>
 
         <section>
-            <div class="wrapper">
+            <div class="wrapper-team">
                 <h2>Our Team</h2>
             
-                <article>
+                <article class="jd">
                     <img src="images/john.jpg" alt="">
-                    <div>
+                    <div class="mg">
                         <h3>John Doe</h3>
                         <h4>CEO and Co-Owner</h4>
+                        <hr>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia nesciunt delectus natus asperiores eos laboriosam optio deserunt nobis eaque pariatur enim necessitatibus, eum, minus similique provident suscipit excepturi commodi est?</p>
                     </div>
                 </article>
             
-                <article>
+                <article class="br">
                     <img src="images/bob.jpg" alt="">
-                    <div>
+                    <div class="mg" id="br">
                         <h3>Bob Rite</h3>
                         <h4>CFO and Co-Owner</h4>
+                        <hr>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia nesciunt delectus natus asperiores eos laboriosam optio deserunt nobis eaque pariatur enim necessitatibus, eum, minus similique provident suscipit excepturi commodi est?</p>
                     </div>
                 </article>
@@ -135,15 +151,15 @@
         </section>
 
         <section>
-            <div class="wrapper">
+            <div class="wrapper-contact">
 
-                <h2>Contact Us</h2>
+                <h2 class="t1">Contact Us</h2>
 
                 <div class="contact-grid">
 
-                    <div>
+                    <div class="sum">
 
-                        <h3>Send us a message</h3>
+                        <h3 class="t2">Send us a message</h3>
                 
                         <form action="index.html" method="get">
 
@@ -170,26 +186,26 @@
 
                     <!--   Two column layout for hours of operation -->
 
-                    <div>
-                        <h3>Hours of operation</h3>
+                    <div class="ho">
+                        <h3 class="t2">Hours of operation</h3>
                         <table>
                             <tr>
-                                <th>Days</th>
-                                <th>Hours</th>
+                                <th class="tbg">Days</th>
+                                <th class="tbg">Hours</th>
                             </tr>
                             <tr>
                                 <td>Monday-Friday</td>
                                 <td>9 AM-6 PM</td>
                             </tr>
                             <tr>
-                                    <td>Saturday-Sunday</td>
-                                    <td>Closed</td>
+                                <td>Saturday-Sunday</td>
+                                <td>Closed</td>
                             </tr>
                         </table>
                     </div>
 
-                    <div>
-                        <h3>Location</h3>
+                    <div class="loc">
+                        <h3 class="t2">Location</h3>
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11216.090196958408!2d-75.75196977391366!3d45.348357078954564!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1690950168913!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
 
